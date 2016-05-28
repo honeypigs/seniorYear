@@ -11,6 +11,13 @@
 @font-face {
     font-family: 'HYXiaoMaiTiJ';
     src :url(../font/HYXiaoMaiTiJ.ttf);
+    src:
+    url('../font/HYXiaoMaiTiJ.eot?') format('embedded-opentype'),
+    url('../font/HYXiaoMaiTiJ.woff') format('woff'),
+    url('../font/HYXiaoMaiTiJ.ttf#font-spider') format('truetype'),
+    url('../font/HYXiaoMaiTiJ.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 .wp{
     position: absolute;
